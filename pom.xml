@@ -14,22 +14,20 @@
     <packaging>jar</packaging>
     <name>minikube-sample</name>
     <description>Demo project for Spring Cloud Kubernetes</description>
-
-<distributionManagment>
-<repositories>
-   <repository>
+         
+<distributionManagement>
+  <repository>
     <id>nexus</id>
     <name>facebook-release</name>
     <url>http://192.168.29.119:8081/repository/facebook-releases/</url>
   </repository>
 
-<snapshotRepository>
+  <snapshotRepository>
     <id> nexus</id>
     <name>facebook-snapshot</name>
     <url>http://192.168.29.119:8081/repository/facebook-snapshot/</url>
-</snapshotRepository>
-
-</distributionManagment>
+  </snapshotRepository>
+</distributionManagement>
 
          
     <properties>
