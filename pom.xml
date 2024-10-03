@@ -15,6 +15,23 @@
     <name>minikube-sample</name>
     <description>Demo project for Spring Cloud Kubernetes</description>
 
+<distributionManagment>
+<repositories>
+   <repository>
+    <id>nexus</id>
+    <name>facebook-release</name>
+    <url>http://192.168.29.119:8081/repository/facebook-releases/</url>
+  </repository>
+
+<snapshotRepository>
+    <id> nexus</id>
+    <name>facebook-snapshot</name>
+    <url>http://192.168.29.119:8081/repository/facebook-snapshot/</url>
+</snapshotRepository>
+
+</distributionManagment>
+
+         
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
