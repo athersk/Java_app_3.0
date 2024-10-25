@@ -19,6 +19,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <sonar.host.url>http://13.232.161.196:9000/</sonar.host.url>
+        <sonar.login>sqa_81379cb8f92e8fcbfbe55401bb75935d165f5bc1</sonar.login>
     </properties>
 
     <dependencies>
